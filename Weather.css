@@ -1,0 +1,55 @@
+body{
+    background:radial-gradient(
+        circle,rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
+    );
+}
+
+.container{
+    margin: 2rem;
+    max-width: 25rem;
+    background:radial-gradient(
+        circle,rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+        border-radius: 10px;
+        box-shadow: 1px 2px 10px #ccc;
+}
+#weatherwidget{
+    min-height: 18rem;
+    background: #fff;
+    border: radius 5px; ;
+}
+.card{
+width: 100%;
+}
+.card .cel:after{
+content: "°C";
+position: absolute;
+font-size: 2rem;
+margin-top: .3rem;
+font-weight: 400;
+}
+.card .card-subtitle{
+    font-size: 4rem;
+}
+.card .far:after{
+    content: "°F";
+    position: absolute;
+    font-size: 2rem;
+    margin-top: .3rem;
+    font-weight: 400;
+    }
+    .units{
+        color:#666;
+        text-decoration: none;
+
+    }
+    .units a.active{
+color:#ccc
+    }
+    .row {}
+
+.container.pb-3 {padding-left: 10px;padding-right: 10px;margin: auto; margin-top: 59px;}
+
+span#photo {width: 150px;height: 150px;border-radius: 100%;text-align: center;}
+
+span#photo img {width: 8%;height: 8%;border-radius: 15%;text-align: center;}
